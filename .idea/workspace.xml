@@ -14,6 +14,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/CacheExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/CacheExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/IgniteCacheNode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/IgniteCacheNode1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/IgniteCacheNode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/IgniteCacheNode2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/ComputeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/ComputeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/IgniteWorkerNode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/IgniteWorkerNode1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/IgniteWorkerNode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/IgniteWorkerNode2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/IgniteNode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/IgniteNode1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/IgniteNode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitemessaging/IgniteNode2.java" afterDir="false" />
@@ -22,6 +25,10 @@
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/CacheExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/CacheExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/IgniteCacheNode1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/IgniteCacheNode1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/IgniteCacheNode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecache/IgniteCacheNode2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/ComputeExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/ComputeExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/ComputeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/ComputeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/IgniteWorkerNode1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/IgniteWorkerNode1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/IgniteWorkerNode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitecompute/IgniteWorkerNode2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/CustomIgniteConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/CustomIgniteConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/IgniteNode1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IgniteExamples/ignitemessaging/IgniteNode1.class" afterDir="false" />
@@ -39,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ComputeExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/ComputeExample.java">
+      <file leaf-file-name="unsolved.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/unsolved.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="221">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +58,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/CacheExample.java">
+      <file leaf-file-name="TestDeadLockThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/TestDeadLockThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="290">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solved.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/solved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +112,11 @@
         <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/IgniteWorkerNode2.java" />
         <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecompute/ComputeExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/CacheExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/deadlock_parent_child/solved/Parent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/deadlock_parent_child/solved/IgniteExamples/ignitecache/deadlock_parent_child/deadlock/Parent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/unsolved.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/TestDeadLockThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/solved.java" />
       </list>
     </option>
   </component>
@@ -153,16 +179,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="IgniteExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="ignitecache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ignitetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ignitetest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IgniteExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="ignitecompute" type="462c0819:PsiDirectoryNode" />
+              <item name="deadlock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ignitetest" type="b2602c69:ProjectViewProjectNode" />
@@ -214,20 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComputeExample">
-    <configuration name="CacheExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="IgniteExamples.ignitecache.CacheExample" />
-      <module name="ignitetest" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IgniteExamples.ignitecache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.unsolved">
     <configuration name="ComputeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -237,19 +241,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IgniteExamples.ignitecompute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IgniteCacheNode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="IgniteExamples.ignitecache.IgniteCacheNode2" />
-      <module name="ignitetest" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IgniteExamples.ignitecache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,6 +284,32 @@
       <option name="MAIN_CLASS_NAME" value="IgniteExamples.App" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
+    <configuration name="solved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="IgniteExamples.deadlock.solved" />
+      <module name="ignitetest" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IgniteExamples.deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="unsolved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="IgniteExamples.deadlock.unsolved" />
+      <module name="ignitetest" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IgniteExamples.deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -333,19 +350,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.IgniteCacheNode2" />
-      <item itemvalue="Application.CacheExample" />
       <item itemvalue="Application.IgniteWorkerNode1" />
       <item itemvalue="Application.IgniteWorkerNode2" />
       <item itemvalue="Application.ComputeExample" />
+      <item itemvalue="Application.unsolved" />
+      <item itemvalue="Application.solved" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.unsolved" />
+        <item itemvalue="Application.solved" />
         <item itemvalue="Application.ComputeExample" />
         <item itemvalue="Application.IgniteWorkerNode2" />
         <item itemvalue="Application.IgniteWorkerNode1" />
-        <item itemvalue="Application.CacheExample" />
-        <item itemvalue="Application.IgniteCacheNode2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15322000" />
+    <option name="totallyTimeSpent" value="18141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="980" extended-state="0" />
@@ -387,10 +404,10 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.33600917" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33600917" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarLint" order="4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32995495" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -803,10 +820,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/deadlock_parent_child/solved/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/deadlock_parent_child/solved/IgniteExamples/ignitecache/deadlock_parent_child/deadlock/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/ignitecache/CacheExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="245">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/TestDeadLockThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/unsolved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IgniteExamples/deadlock/solved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
