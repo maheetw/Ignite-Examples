@@ -1,5 +1,7 @@
-package IgniteExamples.ignitemessaging;
+package IgniteExamples;
 
+import org.apache.ignite.cache.CacheAtomicityMode;
+import org.apache.ignite.configuration.CacheConfiguration;
 import org.apache.ignite.configuration.ExecutorConfiguration;
 import org.apache.ignite.configuration.IgniteConfiguration;
 import org.apache.ignite.logger.NullLogger;
@@ -15,7 +17,7 @@ import java.util.Map;
 public class CustomIgniteConfiguration {
 
 
-    IgniteConfiguration getConfiguration(){
+    public IgniteConfiguration getConfiguration(){
 
         TcpDiscoveryMulticastIpFinder finder  = new TcpDiscoveryMulticastIpFinder();
         List<String> address = new ArrayList();
@@ -33,6 +35,16 @@ public class CustomIgniteConfiguration {
         config.setDiscoverySpi(tcpDiscoverySpi);
         config.setGridLogger(new NullLogger());
         return config;
+    }
+
+    public IgniteConfiguration getConfigurationWithCache(){
+        IgniteConfiguration configuration = getConfiguration();
+        CacheConfiguration<Integer, String> cacheConfiguration = new CacheConfiguration<>();
+        cacheConfiguration.setName("default");
+        cacheConfiguration.setAtomicityMode(CacheAtomicityMode.ATOMIC);
+        cacheConfiguration.setBackups(1);
+        configuration.setCacheConfiguration(cacheConfiguration);
+        return configuration;
     }
 
 }

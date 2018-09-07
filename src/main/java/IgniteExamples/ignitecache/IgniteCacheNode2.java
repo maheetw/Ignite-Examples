@@ -1,16 +1,16 @@
-package IgniteExamples.ignitemessaging;
+package IgniteExamples.ignitecache;
 
 import IgniteExamples.CustomIgniteConfiguration;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteMessaging;
 import org.apache.ignite.Ignition;
 
-public class IgniteNode2 {
+public class IgniteCacheNode2 {
 
     public static void main( String[] args )
     {
 
-        Ignite ignite = Ignition.start(new CustomIgniteConfiguration().getConfiguration());
+        Ignite ignite = Ignition.start(new CustomIgniteConfiguration().getConfigurationWithCache());
         IgniteMessaging rmtMsg = ignite.message(ignite.cluster().forLocal());
 
 

@@ -1,5 +1,6 @@
 package IgniteExamples.ignitemessaging;
 
+import IgniteExamples.CustomIgniteConfiguration;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteMessaging;
 import org.apache.ignite.Ignition;
